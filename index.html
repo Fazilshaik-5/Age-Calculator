@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <div class="form-control">
+            <label for="dob">Enter your date of birth</label>
+            <input type="date" name="dob" id="dob">
+            <button type="submit" id="btn">Calculate Age</button>
+            <p id="result">You are x years old.</p>
+        </div>
+
+        <!-- History Section -->
+        <div class="history">
+            <h2>Calculation History</h2>
+            <ul id="history-list">
+                <li>No history yet. Calculate your age to see the history!</li>
+            </ul>
+        </div>
+
+        <!-- Floating Decorations -->
+        <div class="decor small"></div>
+        <div class="decor medium"></div>
+        <div class="decor large"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Age Calculator | Designed for simplicity and accuracy.</p>
+        <p>© This is develop by an SMF@2.</p>
+        <a href="https://example.com/privacy-policy" target="_blank">Privacy Policy</a> |
+    </footer>
+
+    <script src="age.js"></script>
+</body>
+</html>
